@@ -1,0 +1,80 @@
+$color-gray-lg-1:#a4b0be;
+$color-gray-md-1: #57606f;
+$color-gray-dk-1: #2f3542;
+$color-blue-1: #5352ed;
+$color-light-1: #eff7f6;
+$color-orange-1:#ffa502;
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+.heading-1{
+    font-family: 'Press Start 2P', cursive;
+    color:$color-orange-1;
+    font-size: 3.5rem;
+}
+
+.heading-2{
+    color:$color-blue-1;
+    font-size: 7rem;
+}
+
+.heading-3{
+    color:$color-blue-1;
+    font-size: 2.2rem;
+}
+
+.heading-4{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient($color-gray-lg-1, $color-gray-md-1, $color-gray-dk-1);
+}
+
+.key_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    padding: 2rem 4rem;
+    min-width: 30%;
+
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.box{
+    background-color: $color-light-1;
+    border-radius: 6px;
+}
+
+.card-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width: 15rem;
+    padding: 2rem 4rem;
+}
